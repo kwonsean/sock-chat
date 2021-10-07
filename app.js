@@ -28,5 +28,5 @@ app.use('/clubs', clubsRouter);
 app.use('/chat', chatRouter);
 
 server.listen(3000, () => {
-  console.log('Express Server is no listeing on localhost:3000..')
+  console.log('Express Server is now listeing on localhost:3000..')
 });
