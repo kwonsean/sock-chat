@@ -5,6 +5,7 @@ module.exports = (io) => {
 
     //메시지 
     socket.on('chat message', (msg) => {
+      io.emit('chat message', msg);
       console.log("message: ", msg);
     });
 
